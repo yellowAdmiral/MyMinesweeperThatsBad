@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Almost Minesweeper</title>
+    </head>
+    <body>
+        <center>
+        <input type="button" id="fll" value = "FLAG" onclick="flagger()">
+        <div class="row">
+            <div class="column">
+              <input type="image" id="11" class="butt" src="img/unclicked.png" onclick="change(id)">
+              <input type="image" id="12" class="butt" src="img/unclicked.png" onclick="change(id)">
+              <input type="image" id="13" class="butt" src="img/unclicked.png" onclick="change(id)">
+              <input type="image" id="14" class="butt" src="img/unclicked.png" onclick="change(id)">
+              <input type="image" id="15" class="butt" src="img/unclicked.png" onclick="change(id)">
+              <input type="image" id="16" class="butt" src="img/unclicked.png" onclick="change(id)">
+              <input type="image" id="17" class="butt" src="img/unclicked.png" onclick="change(id)">
+              <input type="image" id="18" class="butt" src="img/unclicked.png" onclick="change(id)">
+            </div>
+            <div class="column">
+               
+                 <input type="image" id="21" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="22" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="23" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="24" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="25" class="butt" src="img/unclicked.png" onclick="change(id)">
+               <input type="image" id="26" class="butt" src="img/unclicked.png" onclick="change(id)">
+               <input type="image" id="27" class="butt" src="img/unclicked.png" onclick="change(id)">
+               <input type="image" id="28" class="butt" src="img/unclicked.png" onclick="change(id)">
+            </div>
+            <div class="column">
+                <input type="image" id="31" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="32" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="33" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="34" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="35" class="butt" src="img/unclicked.png" onclick="change(id)">
+               <input type="image" id="36" class="butt" src="img/unclicked.png" onclick="change(id)">
+               <input type="image" id="37" class="butt" src="img/unclicked.png" onclick="change(id)">
+               <input type="image" id="38" class="butt" src="img/unclicked.png" onclick="change(id)">
+            </div>
+            <div class="column">
+                <input type="image" id="41" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="42" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="43" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="44" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="45" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="46" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="47" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="48" class="butt" src="img/unclicked.png" onclick="change(id)">
+            </div>
+            <div class="column">
+                <input type="image" id="51" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="52" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="53" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="54" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="55" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="56" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="57" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="58" class="butt" src="img/unclicked.png" onclick="change(id)">
+              </div>
+              <div class="column">
+                
+                <input type="image" id="61" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="62" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="63" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="64" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="65" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="66" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="67" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="68" class="butt" src="img/unclicked.png" onclick="change(id)">
+              </div>
+              <div class="column">
+                <input type="image" id="71" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="72" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="73" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="74" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="75" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="76" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="77" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="78" class="butt" src="img/unclicked.png" onclick="change(id)">
+              </div>
+              <div class="column">
+                <input type="image" id="81" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="82" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="83" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="84" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="85" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="86" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="87" class="butt" src="img/unclicked.png" onclick="change(id)">
+                <input type="image" id="88" class="butt" src="img/unclicked.png" onclick="change(id)">
+              </div>
+          </div>
+          <h2 id="score"></h2>
+        </center>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
